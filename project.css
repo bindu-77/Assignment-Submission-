@@ -1,0 +1,328 @@
+.{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    margin:0px;
+    padding: 0px;
+    height: 40px;
+    width:100%;
+    /*background-color:darkblue;*/
+    display:flex;
+    justify-content: center;
+    position:fixed;
+}
+.container{
+    width:90%;
+   /* background-color:mediumseagreen;*/
+    display:flex;
+}
+.header_container{
+    justify-content: space-between;
+}
+.logo{
+    height: 40px;
+    width:15%;
+   /* background-color: darkorange;*/
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-align: center;
+    color:white;
+}
+.nav{
+    height: 40px;
+    width:30%;
+    /*background-color:purple;*/
+    display:flex;
+}
+.nav-item{
+    width:30%;
+    height: 40px;
+    /*background-color: grey;*/
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    color:white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.nav-item:hover{
+    background-color: white;
+    color:blue;
+}
+.banner{
+    height: 600px;
+    width:100%;
+    background-color: grey;
+    background-size: cover;
+    background-image: url('./images/banner.jpg');
+    
+}
+.overlay{
+    height: 600px;
+    width:100%;
+    background-color: rgb(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+.banner-text{
+    height: 250px;
+    width:40%;
+    background-color:rgba(202, 215, 224, 0.7);
+    display: flex;
+    align-items: center;
+}
+.banner_title{
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    
+}
+.padding{
+    padding: 15px;
+    /*background-color: tomato;*/
+}
+.button{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: segoe ui;
+    border:2px solid white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color:rgba(162, 180, 192, 0.7);
+    color:black;
+}
+     /* css for services*/
+.services{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(223, 211, 211);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.service-container{
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.service{
+    height: 270px;
+    width:48%;
+    background-color: rgb(238, 234, 234);
+    display:flex;
+    margin-top: 14px;;
+}
+.service-img{
+    height: 270px;
+    width:200%;
+    /*background-color:blanchedalmond;*/
+    display: flex;
+    overflow: hidden;
+}
+.service-details{
+    height: 270px;
+    /*background-color: rgb(175, 113, 90);*/
+    display: flex;
+    align-items: center;
+}
+.service-style{
+    font-size: 20px;
+    font-family: 'Segoe UI';
+}
+.service-padd{
+    padding:8px;
+}
+.service-button{
+    padding-left:11px;
+    padding-right:11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: segoe ui;
+    background-color:transparent;
+    border:2px solid black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+/* css for about */
+.about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgb(250, 241, 241);
+    /*font-family: 'Segoe UI';*/
+    font-size: 18px;
+    display:flex ;
+    flex-direction:column;
+    align-items: center;
+
+}
+.about-container{
+    margin-top: 5px;
+    /*background-color: blue;*/
+    line-height: 21px;
+    display:inline;
+}
+.heading{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.highlight{
+    padding-top: 22px;
+    padding-bottom: 22px;
+    width:100%;
+    background-color:rgba(170, 182, 190, 0.7);
+    display:flex;
+    justify-content: center; 
+}
+.highlight_container{
+    justify-content:space-between;
+}
+.high-ele{
+    width:22%;
+    height:125px;
+    background-color: rgba(16, 15, 19, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.high-title{
+    font-size: 30px;
+}
+.high-desc{
+    font-size: 19px;
+}
+.quote{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:100%;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.quote_container{
+    flex-direction: column;
+    align-items: center;
+}
+.service-button:hover{
+    background-color:rgba(1,1,1, 0.7);
+    color:white;
+}
+.portfolio{
+    width:100%;
+    background-color:rgb(190, 189, 189);
+    display:flex;
+    justify-content: center;
+    /*flex-direction: column;
+    align-items: center;*/
+}
+.portfolio_container{
+    width:100%;
+    flex-wrap: wrap;
+}
+.project{
+    width:25%;
+    height: 250px;
+    background-color:rgb(170, 47, 47);
+    display: flex;
+    text-align:center;
+    overflow:hidden;
+}
+.project_1{
+    background-image: url('https://images.pexels.com/photos/96380/pexels-photo-96380.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_2{
+    background-image: url('https://images.pexels.com/photos/4173102/pexels-photo-4173102.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.project_3{
+    background-image: url('https://images.pexels.com/photos/1680140/pexels-photo-1680140.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=400');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_4{
+    background-image: url('https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.project_5{
+    background-image: url('https://images.pexels.com/photos/2263510/pexels-photo-2263510.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_6{
+    background-image: url('https://images.pexels.com/photos/3074920/pexels-photo-3074920.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.project_7{
+    background-image: url('https://images.pexels.com/photos/1907785/pexels-photo-1907785.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_8{
+    background-image: url('https://images.pexels.com/photos/3769532/pexels-photo-3769532.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300');
+    background-size: cover;
+}
+.project_title{
+    width:100%;
+    height: 110px;
+    background-color: rgba(22, 151, 206, 0.7);
+    cursor: pointer;
+    transition:0.4s;
+}
+.project_title:hover{
+    height: 250px;
+}
+
+      /* css for footer*/
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100%;
+    background-color: rgb(94, 83, 83);
+    display:flex;
+    justify-content: center;
+}
+.footer_child{
+    height: 200px;
+    width:70%;
+    /*background-color: blue;*/
+    display:flex;
+    justify-content: center;
+    
+
+}
+.footer_child_1{
+    align-items: center;
+    font-size: 20px;
+}
+ul{
+    margin-top: 30px;
+    margin-right: 50px;
+}
+li{
+    list-style-type:none;
+    margin-bottom: 6px;
+}
+.first{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+
+
